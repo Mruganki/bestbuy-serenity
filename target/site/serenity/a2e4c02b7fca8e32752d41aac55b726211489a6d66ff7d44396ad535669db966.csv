@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Service CRU dtest with steps","This test will create a new services and verify its generated","SUCCESS","2021-07-21T22:36:51.653+01:00[Europe/London]","0.0","0.18"
+"Service CRU dtest with steps","This test will get the services information by ID","SUCCESS","2021-07-21T22:36:51.836+01:00[Europe/London]","0.0","0.11"
+"Service CRU dtest with steps","This test will update the services information and verify the updated information","SUCCESS","2021-07-21T22:36:51.953+01:00[Europe/London]","0.0","0.17"
+"Service CRU dtest with steps","This test will delete the categories information and verify the categories is deleted ","SUCCESS","2021-07-21T22:36:52.135+01:00[Europe/London]","0.0","0.21"

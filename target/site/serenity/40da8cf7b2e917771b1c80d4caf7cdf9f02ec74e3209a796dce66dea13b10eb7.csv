@@ -1,0 +1,6 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Product CRU dtest with steps","This will create a new Product and verify new id","SUCCESS","2021-07-21T22:36:40.146+01:00[Europe/London]","0.0","3.03"
+"Product CRU dtest with steps","This test will get the product information by ID","SUCCESS","2021-07-21T22:36:43.254+01:00[Europe/London]","0.0","0.23"
+"Product CRU dtest with steps","This test will update the product information and verify the updated information","SUCCESS","2021-07-21T22:36:43.486+01:00[Europe/London]","0.0","0.24"
+"Product CRU dtest with steps","This test will delete the product information and verify the product is deleted ","SUCCESS","2021-07-21T22:36:43.731+01:00[Europe/London]","0.0","0.26"
+"Product CRU dtest with steps","This test will get all product from list","SUCCESS","2021-07-21T22:36:43.999+01:00[Europe/London]","0.0","2.92"

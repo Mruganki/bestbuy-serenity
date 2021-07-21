@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.bestbuy.bestbuyinfo.ProductCRUDtest" time="16.146" tests="2" errors="1" skipped="0" failures="1">
+  <properties>
+    <property name="idea.version" value="2020.3.3"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\mruga\bestbuy-serenity"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\mruga\bestbuy-serenity"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\mruga\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3.3\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3.3\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_121\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files\Git\cmd;C:\Program Files\Apache\apache-maven-3.6.1\bin;C:\Program Files\nodejs\;C:\Users\mruga\AppData\Local\Microsoft\WindowsApps;C:\Users\mruga\AppData\Roaming\npm;."/>
+    <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3.3\plugins\maven\lib\maven3/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\mruga"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="mruga"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3.3\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3.3\plugins\maven\lib\maven3\boot\plexus-classworlds.license;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3.3\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_121\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2020.3.3 clean verify serenity:aggregate"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3.3\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="test01" classname="com.bestbuy.bestbuyinfo.ProductCRUDtest" time="14.812">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;201&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <201> but was <404>.
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:60)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:235)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+	at com.bestbuy.bestbuyinfo.ProductCRUDtest.test01(ProductCRUDtest.java:61)
+]]></failure>
+    <system-out><![CDATA[Request method:	POST
+Request URI:	http://localhost:3030/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    "name": "SoloerCell58254",
+    "type": "batteries25092",
+    "price": 9043229,
+    "shipping": 8093652,
+    "upc": "Nextday34703",
+    "description": "power9927153",
+    "manufacturer": "UKpowerltd15059",
+    "model": "new80721",
+    "url": "fkju200@gmail.com23687",
+    "image": "00735550"
+}
+HTTP/1.1 404 Not Found
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 93
+ETag: W/"5d-QoCLoYQbBZvX9r0oLMz0KatYCKI"
+Vary: Accept-Encoding
+Date: Wed, 21 Jul 2021 21:36:37 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "name": "NotFound",
+    "message": "Page not found",
+    "code": 404,
+    "className": "not-found",
+    "errors": {
+        
+    }
+}
+]]></system-out>
+    <system-err><![CDATA[16372 [main] INFO net.serenitybdd.rest.decorators.request.RequestSpecificationDecorated - No BaseStepListener, POST  not registered.
+]]></system-err>
+  </testcase>
+  <testcase name="test02" classname="com.bestbuy.bestbuyinfo.ProductCRUDtest" time="1.334">
+    <error message="io.restassured.path.xml.XmlPath cannot be cast to java.util.HashMap" type="java.lang.ClassCastException">java.lang.ClassCastException: io.restassured.path.xml.XmlPath cannot be cast to java.util.HashMap
+	at com.bestbuy.bestbuyinfo.ProductCRUDtest.test02(ProductCRUDtest.java:81)
+</error>
+    <system-out><![CDATA[Request method:	GET
+Request URI:	http://localhost:3030/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: text/html; charset=utf-8
+ETag: W/"c80-LxosfmbJIgZV0Ck3BUPp+1X6XcA"
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Date: Wed, 21 Jul 2021 21:36:38 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+Transfer-Encoding: chunked
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="robots" content="none"/>
+    <title>Best Buy - API Playground</title>
+    <link rel="stylesheet" href="/css/normalize.css"/>
+    <link rel="stylesheet" href="/css/skeleton.css"/>
+    <link rel="stylesheet" href="/css/custom.css"/>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="twelve column">
+          <h1 id="best-buy-api-playground">Best Buy - API Playground</h1>
+          <h2 id="overview">Overview</h2>
+          <p>The Best Buy API Playground is a dataset of products, categories, and stores exposed over HTTP via a simple REST API. This application is meant to be a tool used for educational purposes.</p>
+          <h3 id="endpoints">Endpoints</h3>
+          <ul>
+            <li>
+              <a shape="rect" href="/products">/products</a>
+ - a subset of ~50,000 products available at Best Buy.            </li>
+            <li>
+              <a shape="rect" href="/categories">/categories</a>
+ - All product categories and their subcategories/path.            </li>
+            <li>
+              <a shape="rect" href="/stores">/stores</a>
+ - A list of all Best Buy store locations.            </li>
+            <li>
+              <a shape="rect" href="/services">/services</a>
+ - A list of all services available at Best Buy stores.            </li>
+            <li>
+              <a shape="rect" href="/version">/version</a>
+ - Displays the current version of the application.            </li>
+            <li>
+              <a shape="rect" href="/healthcheck">/healthcheck</a>
+ - Displays the information about the application's health.            </li>
+          </ul>
+          <h2 id="exploring-the-api">Exploring the API</h2>
+          <h3 id="swagger">Swagger</h3>
+          <ul>
+            <li>
+Swagger config URL:               <a shape="rect" href="/swagger.json">/swagger.json</a>
+            </li>
+            <li>
+Explore the API via the               <a shape="rect" href="/docs">Swagger UI</a>
+            </li>
+          </ul>
+          <h3 id="postman-collection">Postman Collection</h3>
+          <p>
+The API can also be explored via a             <a shape="rect" href="https://www.getpostman.com/docs/collections">Postman Collection</a>
+.          </p>
+          <ul>
+            <li>
+Import the collection from this URL:               <a shape="rect" href="/postman/API.postman_collection.json">/postman/API.postman_collection.json</a>
+            </li>
+          </ul>
+          <h3 id="querying-the-api">Querying the API</h3>
+          <ul>
+            <li>
+Check out our               <a shape="rect" href="queries">Example Queries</a>
+ to get an idea of whats possible.            </li>
+            <li>
+All querystrings on GET requests are parsed using               <a shape="rect" href="http://npmjs.com/packages/qs">qs</a>
+ to turn them into JSON.            </li>
+            <li>
+Nearly all the               <a shape="rect" href="http://docs.sequelizejs.com/en/latest/docs/querying/#operators">Sequelize Operators</a>
+ are supported.              <ul>
+                <li>
+Use                   <code>*</code>
+ instead of                   <code>%</code>
+ for the                   <code>$like</code>
+ Operators                </li>
+                <li>
+Use                   <code>$select</code>
+ instead of                   <code>$attributes</code>
+ for selecting specific fields                </li>
+                <li>
+Use Feathers                   <a shape="rect" href="https://docs.feathersjs.com/databases/pagination.html">Pagination and sorting</a>
+ fields (                  <code>$limit, $skip, $sort</code>
+)                </li>
+              </ul>
+            </li>
+          </ul>
+          <h3 id="technologies">Technologies</h3>
+          <ul>
+            <li>
+              <a shape="rect" href="http://feathersjs.com/">Feathers</a>
+            </li>
+            <li>
+              <a shape="rect" href="http://docs.sequelizejs.com/en/v3/">Sequelize</a>
+            </li>
+          </ul>
+          <h3 id="attribution">Attribution</h3>
+          <ul>
+            <li>
+Zipcode data provided by               <a shape="rect" href="http://www.geonames.org/">geonames.org</a>
+            </li>
+            <li>
+CSS provided by               <a shape="rect" href="http://getskeleton.com/">Skeleton</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+]]></system-out>
+    <system-err><![CDATA[17163 [main] INFO net.serenitybdd.rest.decorators.request.RequestSpecificationDecorated - No BaseStepListener, GET  not registered.
+]]></system-err>
+  </testcase>
+</testsuite>

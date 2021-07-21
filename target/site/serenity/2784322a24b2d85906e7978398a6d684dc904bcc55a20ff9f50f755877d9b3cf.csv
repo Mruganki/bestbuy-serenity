@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Category CRU dtest with steps","This test will create a new categories and verify its generated","SUCCESS","2021-07-21T22:36:23.855+01:00[Europe/London]","0.0","19.28"
+"Category CRU dtest with steps","This test will get the categories information by ID","SUCCESS","2021-07-21T22:36:43.198+01:00[Europe/London]","0.0","0.2"
+"Category CRU dtest with steps","This test will update the categories information and verify the updated information","SUCCESS","2021-07-21T22:36:43.402+01:00[Europe/London]","0.0","0.58"
+"Category CRU dtest with steps","This test will delete the categories information and verify the categories is deleted ","SUCCESS","2021-07-21T22:36:43.990+01:00[Europe/London]","0.0","2.94"
